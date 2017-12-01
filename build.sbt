@@ -12,4 +12,4 @@ lazy val root = (project in file(".")).
   )
 
 libraryDependencies += "com.typesafe.akka" %% "akka-http-core" % "10.0.10"
-libraryDependencies += "com.typesafe.akka" % "akka-slf4j_2.12" % "2.5.6" exclude("com.typesafe.akka", "akka-actor_2.12")
+libraryDependencies += "com.typesafe.akka" % "akka-slf4j_2.12" % "2.5.6"
